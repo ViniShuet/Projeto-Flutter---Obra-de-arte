@@ -12,8 +12,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Obras de artes',
       theme: ThemeData(primarySwatch: Colors.blue),
-      initialRoute: Route.splash,
-      onGenerateInitialRoutes: Routes.generateRoute,
+      initialRoute: Routes.splash,
+      onGenerateRoute: Routes.generateRoute,
       debugShowCheckedModeBanner: false,
     );
   }
