@@ -8,11 +8,10 @@ import 'package:obras_de_arte/screens/intro/splash/splash_screen.dart';
 class Routes {
 
 static const String splash = '/';
-static const String into = '/intro';
+static const String intro = 'intro';
 static const String home = '/home';
 static const String detail = '/detail';
 
-}
 
 static Route<dynamic> generateRoute(RouteSettings settings){
   switch(settings.name){
@@ -40,6 +39,8 @@ static Route<dynamic> generateRoute(RouteSettings settings){
       )
     );   
   }
+}
+
 }
 
 class ArtworkDetailScreenArguments {
